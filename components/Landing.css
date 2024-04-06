@@ -1,0 +1,42 @@
+
+
+
+body{
+  height: 100vh;
+  
+  background-image:url(/public/Rectangle3.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+
+::-webkit-scrollbar {
+    height: 0px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .optionul li{
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  padding: 0.5rem;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  }
+  .optionul li:hover{
+    transform: scale(1.05);
+  }
+
+
+ 
